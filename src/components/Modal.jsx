@@ -1,4 +1,4 @@
-import Form from "./form";
+import FormData from "./FormData";
 import "./Modal.css";
 import { useEffect } from "react";
 
@@ -28,7 +28,7 @@ const Modal = ({open, onClose }) => {
       {open && (
         <div className="modal active">
           <div className="modal-content">
-            <Form/>
+            <FormData/>
           </div>
         </div>
       )}

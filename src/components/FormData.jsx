@@ -9,7 +9,7 @@ const formLabels = [
   { id: "dob", label: "Date of Birth", type: "date", value: "dateOfBirth" },
 ];
 
-const Form = () => {
+const FormData = () => {
   const [formData, setFormData] = useState({
     username: "",
     email: "",
@@ -84,4 +84,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default FormData;
