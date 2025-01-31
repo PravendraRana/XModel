@@ -1,4 +1,3 @@
-import Form from "./components/form";
 import Modal from "./components/Modal";
 import { useState } from "react";
 
@@ -40,7 +39,6 @@ function App() {
       </div>
 
       <Modal open={open} onClose={onClose}>
-        <Form/>
       </Modal>
     </>
   );

@@ -1,7 +1,6 @@
 import "./FormFields.css";
 
 const FormFields = ({ type, label, id, onChangeHandler, value }) => {
-  console.log("label", label);
 
   return (
     <>

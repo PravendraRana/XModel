@@ -17,8 +17,6 @@ const Form = () => {
     dateOfBirth: "",
   });
 
-  console.log("formdata", formData);
-
   const onChangeHandler = (e, label) => {
     let value = e.target.value;
     if (value) {

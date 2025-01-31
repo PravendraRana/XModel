@@ -1,9 +1,9 @@
+import Form from "./form";
 import "./Modal.css";
 import { useEffect } from "react";
 
-const Modal = ({ children, open, onClose }) => {
-  console.log("form", open);
-
+const Modal = ({open, onClose }) => {
+  
   useEffect(() => {
     debugger;
     const handleOutsideClick = (event) => {
@@ -27,7 +27,9 @@ const Modal = ({ children, open, onClose }) => {
     <>
       {open && (
         <div className="modal active">
-          <div className="modal-content">{children}</div>
+          <div className="modal-content">
+            <Form/>
+          </div>
         </div>
       )}
     </>
